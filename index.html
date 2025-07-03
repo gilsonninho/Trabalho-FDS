@@ -1,0 +1,61 @@
+index.html
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Pessoal - Gilson</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Gilson dos Santos Junior</h1>
+
+  <p>
+    Olá! Meu nome é Gilson dos Santos Junior, tenho 31 anos e nasci em Chapada dos Guimarães, MT.
+    Sou apaixonado por esportes e jogos de tabuleiro.
+  </p>
+  <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+<p id="mensagem"></p>
+
+  <h2>Meus Hobbies Favoritos</h2>
+  <ul>
+    <li>Pedalar</li>
+    <li>Vôlei</li>
+    <li>Jogos de tabuleiro</li>
+  </ul>
+
+  <img src="pedaltopdefita.png" alt="Gilson no pedal" width="300">
+
+  <h2>Países que gostaria de visitar</h2>
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>País</th>
+      <th>Imagem</th>
+    </tr>
+    <tr>
+      <td>Japão</td>
+      <td><img src="japao.png" alt="Japão" width="80"></td>
+    </tr>
+    <tr>
+      <td>Finlândia</td>
+      <td><img src="finlandia.png" alt="Finlândia" width="80"></td>
+    </tr>
+    <tr>
+      <td>China</td>
+      <td><img src="china.png" alt="China" width="80"></td>
+    </tr>
+  </table>
+
+  <h2>Site de interesse</h2>
+  <p>
+    Para mais informações sobre meus serviços, visite o meu site 
+    <a href="https://powerecoservices.com.br/" target="_blank">Power Eco Services</a>.
+  </p>
+  <script>
+  function mostrarMensagem() {
+    document.getElementById("mensagem").innerHTML = "Quem credita sempre alcança!";
+  }
+</script>
+</body>
+</html>
+.

@@ -1,0 +1,56 @@
+style.css
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: #0021b6;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+img {
+  width: 250px;
+  border-radius: 15px;
+  display: block;
+  margin: 20px auto;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #ffffffe5;
+}
+
+table, th, td {
+  border: 1px solid #999999bd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #4600b6d3;
+  color: #ffffff;
+}
+
+a {
+  color: #023e8a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6b6b;
+}
